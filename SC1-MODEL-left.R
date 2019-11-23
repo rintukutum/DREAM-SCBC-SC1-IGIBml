@@ -3,7 +3,7 @@ library("optparse")
 
 option_list = list(
   make_option(c("-C", "--cellLine"), type="character", default=NULL, 
-              help="cohort i.e., North/Vadu", metavar="character"),
+              help="cell-lines", metavar="character"),
   make_option(c("-T", "--treatment"), type="character", default=NULL, 
               help="debug mode", metavar="character"),
   make_option(c("-t", "--time"), type="character", default=NULL, 
